@@ -29,9 +29,7 @@ export default defineNuxtModule<ModuleOptions>({
     },
   },
   // Default configuration options of the Nuxt module
-  defaults: {
-    apiKey: null,
-  },
+  defaults: {},
   setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
 

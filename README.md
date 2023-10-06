@@ -2,6 +2,8 @@
 
 >  Integrate Open Graph Images in your [Nuxt](https://nuxt.com/) Application with the official [mediamask](https://mediamask.io/) plugin.
 
+**Important Note:** This module does not work with `ssr: false`.
+
 ## Features
 
 - Add beautiful Open Graph Images to your nuxt Application quick & easy

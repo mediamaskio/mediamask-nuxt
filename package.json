@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.7.4",
+    "defu": "^6.1.2",
     "mediamask-js": "^1.1.10"
   },
   "devDependencies": {

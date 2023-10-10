@@ -1,6 +1,6 @@
 {
   "name": "mediamask-nuxt",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "Integrate Open Graph Images in your Nuxt Application with the official mediamask plugin.",
   "repository": "mediamaskio/mediamask-nuxt",
   "license": "MIT",

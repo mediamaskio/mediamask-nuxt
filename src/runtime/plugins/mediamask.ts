@@ -19,13 +19,13 @@ export class Mediamask {
   }
 
   private getApiInstance() {
-    const {mediamask: options} = useRuntimeConfig().public
-    if (options.apiKey === null || options.apiKey === '') {
+    const {mediamask} = useRuntimeConfig()
+    if (mediamask.apiKey === null || mediamask.apiKey === '') {
       throw Error('Mediamask API Key is not configured. Please make sure you have the mediamask.apiKey set inside your nuxt.config.ts')
     }
     return new MediamaskApi(
       new Configuration({
-        accessToken: options.apiKey,
+        accessToken: mediamask.apiKey,
       })
     );
   }

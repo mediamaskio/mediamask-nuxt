@@ -29,12 +29,14 @@ export default defineNuxtModule<ModuleOptions>({
     },
   },
   // Default configuration options of the Nuxt module
-  defaults: {},
+  defaults: {
+    apiKey: ''
+  },
   setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
 
-    nuxt.options.runtimeConfig.public.mediamask = defu(
-      nuxt.options.runtimeConfig.public.mediamask,
+    nuxt.options.runtimeConfig.mediamask = defu(
+      nuxt.options.runtimeConfig.mediamask,
       options,
     )
 

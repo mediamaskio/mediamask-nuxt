@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 ```
 
 3. Register at [mediamask.io](https://mediamask.io/) and retrieve an API token [here](https://mediamask.io/team/api-tokens). 
-4. Put the API Key in your `.env` file like this `NUXT_PUBLIC_MEDIAMASK_API_KEY={API_KEY}`
+4. Put the API Key in your `.env` file like this `NUXT_MEDIAMASK_API_KEY={API_KEY}`
 5. You can either create a new template or use one of the templates provided in the mediamask template library. 
    Learn more about creating templates in mediamask in the [mediamask docs](https://docs.mediamask.io/)
 6. After creating the template you can define which template should be used via the `useMediamaskOgImage()` composable inside of you pages or layouts. 

@@ -1,6 +1,6 @@
 {
   "name": "mediamask-nuxt",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Integrate Open Graph Images in your Nuxt Application with the official mediamask plugin.",
   "repository": "mediamaskio/mediamask-nuxt",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"

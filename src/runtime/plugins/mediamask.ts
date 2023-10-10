@@ -1,5 +1,5 @@
 import {Configuration, MediamaskApi} from "mediamask-js";
-import { useRuntimeConfig } from '#imports'
+import { useRuntimeConfig, useServerSeoMeta } from '#imports'
 
 export interface SignedUrlParameters {
   [name: string]: string
@@ -7,7 +7,6 @@ export interface SignedUrlParameters {
 
 export class Mediamask {
   insertOgImage(signedUrl) {
-    // @ts-ignore
     useServerSeoMeta({
       ogImage: signedUrl,
       twitterCard: 'summary_large_image',
